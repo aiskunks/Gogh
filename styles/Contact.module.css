@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    max-width: 1060px;
+    margin: 20vh auto;
+}
+
+.main {
+    width: 100%;
+    z-index: 0;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.contactform {
+    width: 70%;
+    height: auto;
+    background-color: #ffe6e8;
+    padding: 3vh;
+    position: relative;
+    margin: 3vh auto 20px auto;
+}
+
+.contactform::after {
+    content: '';
+    width: 73%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    background-color: #fc7a77;
+    z-index: -1;
+}
+
+.form_group {
+    padding: 1vh;
+}
+
+.label {
+    color: #f94951;
+}
+
+.inputfield {
+    padding: 8px 20px;
+    width: 100%;
+    border: #f94951 1px solid;
+    color: #f94951;
+    background-color: #ffe6e8;
+}
+
+.inputfield:focus {
+    background-color: #fafafa;
+}
+
+.submit_button {
+    background-color: #f94951;
+    color: #fafafa;
+    border: none;
+    padding: 7px 30px;
+}
+
+.submit_button_div {
+    display: flex;
+    justify-content: flex-end;
+}
